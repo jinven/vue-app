@@ -62,7 +62,7 @@ new Vue({
     connect: function(){
       // console.log('socket connected');
     },
-    res: function(val){
+    res: function(){
       // console.log('received', val);
     }
   },
