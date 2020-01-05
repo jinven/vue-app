@@ -60,10 +60,10 @@ new Vue({
   store,
   sockets:{
     connect: function(){
-      console.log('socket connected');
+      // console.log('socket connected');
     },
     res: function(val){
-      console.log('received', val);
+      // console.log('received', val);
     }
   },
   render: h => h(App)
